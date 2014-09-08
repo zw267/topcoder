@@ -12,6 +12,6 @@ import java.util.*;
 // }}}
 
 public class BinaryCode {
-	public String[] decode(String message) {
-	}
+    public String[] decode(String message) {
+    }
 }

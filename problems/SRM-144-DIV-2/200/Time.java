@@ -12,7 +12,7 @@ import java.util.*;
 // }}}
 
 public class Time {
-	public String whatTime(int seconds) {
+    public String whatTime(int seconds) {
         String res = "";
 
         for (int base = 3600; base > 0; base /= 60) {
@@ -24,5 +24,5 @@ public class Time {
         }
 
         return res;
-	}
+    }
 }

@@ -28,7 +28,7 @@ using namespace std;
 
 class Time {
 public:
-	string whatTime(int seconds) {
+  string whatTime(int seconds) {
     string res;
 
     for (int base = 3600; base > 0; base /= 60) {
@@ -39,7 +39,7 @@ public:
 
       seconds %= base;
     }
-
-		return res;
-	}
+    
+    return res;
+  }
 };

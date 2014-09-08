@@ -28,7 +28,7 @@ using namespace std;
 
 class BinaryCode {
 public:
-	vector <string> decode(string message) {
+  vector <string> decode(string message) {
     vector<string> res;
 
     string p;
@@ -59,7 +59,7 @@ public:
       res.push_back(p);
       p = "";
     }
-
-		return res;
-	}
+    
+    return res;
+  }
 };
